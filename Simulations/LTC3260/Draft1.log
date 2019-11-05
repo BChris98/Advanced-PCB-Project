@@ -1,0 +1,22 @@
+Circuit: * C:\Users\chris\OneDrive - Haute Ecole Léonard de Vinci\School\MA1 Archives\Advanced PCB Design\Advanced-PCB-Project\Simulations\LTC3260\Draft1.asc
+
+R2: both pins shorted together -- ignoring.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Nov 02 16:59:46 2019
+Total elapsed time: 0.101 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2095
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 7
+fillins = 0
+solver = Normal
+Matrix Compiler1: 330 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+
