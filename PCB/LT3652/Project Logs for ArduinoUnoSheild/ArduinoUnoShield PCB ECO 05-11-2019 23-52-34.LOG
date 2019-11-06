@@ -1,0 +1,11 @@
+Added Component: Designator=M1(TO-220 V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "ECAM 2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Mosfet canal N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "NMOS"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetM1_1 Pin=M1-1
+Added Pin To Net: NetName=POW Pin=M1-2
+Added Pin To Net: NetName=NetC2_1 Pin=M1-3
+Added Member To Class: ClassName=ups Member=Component M1 IPP096N03L

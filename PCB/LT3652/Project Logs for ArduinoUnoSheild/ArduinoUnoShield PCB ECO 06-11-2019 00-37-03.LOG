@@ -1,0 +1,10 @@
+Added Component: Designator=J1(Jack_connector)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "ECAM 2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Connecteur à vis"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=19V Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component J1 Connecteur 2
