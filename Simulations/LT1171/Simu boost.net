@@ -1,0 +1,18 @@
+* C:\Users\julien\Documents\4EO\PCB\Simu boost.asc
+C1 N001 0 100µ V=4 Irms=3.72678 Rser=0.018 Lser=0 mfg="KEMET" pn="A700D107M004ATE018" type="Al electrolytic"
+C2 N006 0 1µ
+C3 N003 0 1000µ V=50 Irms=1.11 Rser=0.053 Lser=0 mfg="Nichicon" pn="UPR1H102MRH" type="Al electrolytic"
+V1 N001 0 14
+R1 N005 N006 1000
+D3 N002 N003 MBRS340
+R2 N003 N004 27112
+R3 N004 0 1000
+L1 N001 N002 50µ
+R4 N003 0 35
+XU1 N005 N004 0 N002 N001 LT1171
+.model D D
+.lib C:\Users\julien\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 0.25
+.lib LT1171.sub
+.backanno
+.end
