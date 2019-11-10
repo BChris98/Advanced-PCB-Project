@@ -1,0 +1,58 @@
+1 : Route the OUTPUT CAPACITOR to the IC with short and wide trace to minimize the parasitic inductance
+--------------------------------------------------------------------------------------------------------
+
+The reason is that the current flowing through the output capacitors is pulse-type.
+Considering the V = L × dI / dt, the parasitic inductance between the IC and the output capacitors
+would cause voltage spike and ringing at the SW pin. Too high voltage spike can damage the IC and
+the ringing causes EMI problems.
+
+If it's not possible or hard to place the large package capacitors close to the IC, 
+a small package capacitor can be placed near the IC and the bulk capacitors are placed somewhere farther. 
+
+
+
+
+2 : The INDUCTOR should be placed close to the IC.
+----------------------------------------------------
+
+Reason : to reduce the radiated EMI
+The copper of the SW-node should be optimized to handle the large current
+with minimum area. The SW-node is the noisy source of the boost converter, so any trace of a
+sensitive node, such as FB, should be far away from the SW 
+
+
+
+3 : The ground-node of the INPUT CAPACITOR should be close to the IC power ground pin.
+----------------------------------------------------------------------------------------
+
+The input capacitor ground-node, output capacitor ground-node and the IC ground-pin form a 
+PowerGround of the boost converter.
+
+The VIN voltage is usually stable voltage, so a large VIN-node copper area would not cause trouble
+and a large copper area can help to improve the thermal performance. We can use the inductor pin that is
+connected to Vin but closer to the output capacitor ground pin. 
+
+N.B : The distance between VIN-node of the input capacitor and inductor is
+not important because the current through the input capacitor is continuous.
+
+
+
+4 : the remaining small signal components have to be close to the IC
+----------------------------------------------------------------------
+
+The analog components and nodes are sensitive to noise, especially when they have large input
+impedance, such as FB pin. Make sure these components are close to the IC. 
+The traces between the components and IC should be short to minimize the parasitic capacitance with noisy SW node.
+
+NEVER route the FB TRACE IN PARALLEL WITH THE SW NODE CLOSELY; otherwise the switching noise would couple to
+the FB pin and cause problems.
+
+
+5: The GROUND-NODE of the analog SMALL SIGNAL components and AGND pin of the IC form a SignalGround,
+which must be connected to the Power-Ground of the IC through a single point. 
+------------------------------------------------------------------------------------------------------
+(The single point should be closed to the PGND pin)
+
+Make sure no large power current is flowing through the
+Signal-Ground. Otherwise, noise coupling into the control circuit could causes bad output voltage
+regulation, inaccurate current limit, or other abnormal behaviors
