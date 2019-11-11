@@ -1,0 +1,5 @@
+Added Component: Designator=PIR Sensor(Connector 3)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=IO2 Pin=PIR Sensor-2
+Added Pin To Net: NetName=GND Pin=PIR Sensor-3
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component PIR Sensor Connecteur 3
