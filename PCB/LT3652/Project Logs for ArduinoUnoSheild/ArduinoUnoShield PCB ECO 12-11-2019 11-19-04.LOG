@@ -1,0 +1,44 @@
+Removed Pin From Net: NetName=NetC2_1 Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=C5-2
+Removed Pin From Net: NetName=5V Pin=POWER-4
+Removed Pin From Net: NetName=NetM1_1 Pin=U1-1
+Removed Pin From Net: NetName=NetR1_1 Pin=U1-3
+Change Component Footprint: Designator=C5 Old Footprint=CAPPR1.5-4x5 New Footprint=0805 CAP
+Change Component Comment : Designator=C5 Old Comment=Cond pol radial New Comment=1uF
+Change component parameters: Designator = "C5"; Footprint = "0805 CAP"; UniqueID = "\NWIOMTLB\KGKGPCRI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1 µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Size/Dimension"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/11616/product-11616620.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/11616/product-11616620.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "https://datasheet.ciiva.com/138/s0717e-138752.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://datasheet.ciiva.com/138/s0717e-138752.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "https://datasheet.ciiva.com/138/s0717e-138753.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.ciiva.com/138/s0717e-138753.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4Description"; Value = "https://datasheet.ciiva.com/18183/getdatasheetpartid-251151-18183719.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4URL"; Value = "https://datasheet.ciiva.com/18183/getdatasheetpartid-251151-18183719.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink5Description"; Value = "https://datasheet.ciiva.com/138/s0717e-138751.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink5URL"; Value = "https://datasheet.ciiva.com/138/s0717e-138751.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "GCM21BR7YA105KA55L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "5=0.391, 50=0.21, 250=0.162, 500=0.111 (EUR)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "35 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "3630"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2494199"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance (%)"; Value = "±10 %"; VariantName = "[No Variations]"
+Added Component: Designator=R19(0603 RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "ECAM 2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Résistance standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=NetC2_1 Pin=C5-2
+Added Pin To Net: NetName=NetC2_1 Pin=R19-1
+Added Pin To Net: NetName=NetM1_1 Pin=R19-2
+Added Pin To Net: NetName=NetR1_1 Pin=U1-4
+Added Pin To Net: NetName=NetM1_1 Pin=U1-6
+Added Member To Class: ClassName=ups Member=Component R19 Résistance
