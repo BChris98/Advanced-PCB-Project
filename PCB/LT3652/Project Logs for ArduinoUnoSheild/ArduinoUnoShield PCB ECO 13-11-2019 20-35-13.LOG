@@ -1,0 +1,39 @@
+Change Component Footprint: Designator=R7 Old Footprint=0603 RES New Footprint=1206 RES
+Change component parameters: Designator = "C18"; Footprint = "CAPPR2-5x10"; UniqueID = "\GYKRGXFK\GPKBEEJT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Designer"; Value = "ECAM 2004"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Condensateur polarisé debout"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "270µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R7"; Footprint = "1206 RES"; UniqueID = "\NWIOMTLB\HUCURVDO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Designer"; Value = "ECAM 2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Résistance standard"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1680"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R17"; Footprint = "0603 RES"; UniqueID = "\GYKRGXFK\PBZLSTTU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Designer"; Value = "ECAM 2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Résistance standard"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "270k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R18"; Footprint = "0603 RES"; UniqueID = "\GYKRGXFK\DJJRSMHS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Designer"; Value = "ECAM 2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Résistance standard"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R20(1206 RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "ECAM 2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Résistance standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1680"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R20-1
+Added Pin To Net: NetName=NetLD1_2 Pin=R20-2
+Added Member To Class: ClassName=ups Member=Component R20 Résistance

@@ -52,7 +52,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=IVATKIKG
+DocumentUniqueId=VBDNFSQF
 
 [Document2]
 DocumentPath=Header.PcbLib
@@ -206,6 +206,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LMSLWVKC
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for ArduinoUnoSheild\Design Rule Check - ArduinoUnoShield.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
