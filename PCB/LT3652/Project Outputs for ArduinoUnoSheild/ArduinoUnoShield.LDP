@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Bureau\ECAM\MA1\Advanced PCB design\Advanced-PCB-Project\PCB\LT3652\ArduinoUnoShield.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=arduinounoshield-roundholes.txt|DrillLayers=gtl,g1,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=arduinounoshield-slotholes.txt|DrillLayers=gtl,g1,gbl

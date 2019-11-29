@@ -1,0 +1,23 @@
+Change component parameters: Designator = "R7"; Footprint = "1206 RES"; UniqueID = "\NWIOMTLB\HUCURVDO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Designer"; Value = "ECAM 2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Résistance standard"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1800"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R20"; Footprint = "1206 RES"; UniqueID = "\NWIOMTLB\NXUXZNJL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Designer"; Value = "ECAM 2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Résistance standard"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1800"; VariantName = "[No Variations]"
+Added Component: Designator=R169135(0603 RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "ECAM 2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Résistance standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1M"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R169135-1
+Added Pin To Net: NetName=NetD4_2 Pin=R169135-2

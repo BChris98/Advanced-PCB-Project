@@ -1,0 +1,32 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [ArduinoUnoSheild.PrjPcb]
+   Generated File[ArduinoUnoShield.GTO]
+   Generated File[ArduinoUnoShield.GTP]
+   Generated File[ArduinoUnoShield.GTS]
+   Generated File[ArduinoUnoShield.GTL]
+   Generated File[ArduinoUnoShield.GBL]
+   Generated File[ArduinoUnoShield.GBS]
+   Generated File[ArduinoUnoShield.GBP]
+   Generated File[ArduinoUnoShield.GBO]
+   Generated File[ArduinoUnoShield.GM1]
+   Generated File[ArduinoUnoShield.GM4]
+   Generated File[ArduinoUnoShield.GM5]
+   Generated File[ArduinoUnoShield.GM13]
+   Generated File[ArduinoUnoShield.GM15]
+   Generated File[ArduinoUnoShield.GM20]
+   Generated File[ArduinoUnoShield.GM29]
+   Generated File[ArduinoUnoShield.GKO]
+   Generated File[ArduinoUnoShield.GPT]
+   Generated File[ArduinoUnoShield.GPB]
+   Generated File[ArduinoUnoShield.GD1]
+   Generated File[ArduinoUnoShield.GG1]
+   Generated File[ArduinoUnoShield.RUL]
+   Generated File[ArduinoUnoShield.EXTREP]
+   Generated File[ArduinoUnoShield.REP]
+
+
+Files Generated   : 23
+Documents Printed : 0
+
+Finished Output Generation At 13:28:32 On 28/11/2019
